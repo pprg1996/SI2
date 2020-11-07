@@ -872,6 +872,7 @@ const Login = ({ setLogged }) => {
 
   const handleLogin = () => {
     if (usuario === "prueba" && clave === "clave1234") setLogged(true);
+    else alert("Contraseña incorrecta");
   };
 
   return (
